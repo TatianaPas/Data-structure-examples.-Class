@@ -30,5 +30,13 @@ namespace CombinedForm
             HashForm hashForm = new HashForm();
             hashForm.Show();
         }
+
+        private void linkedListBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LinkedListForm linkedForm = new LinkedListForm();
+            linkedForm.Show();
+
+        }
     }
 }

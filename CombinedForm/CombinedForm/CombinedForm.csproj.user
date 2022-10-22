@@ -10,6 +10,9 @@
     <Compile Update="HashForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="LinkedListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ViewForm.cs">
       <SubType>Form</SubType>
     </Compile>

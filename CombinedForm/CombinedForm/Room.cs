@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace CombinedForm
 {
+
+    //class for hashTable
     public class Room
     {
         public int Number { get; set; }

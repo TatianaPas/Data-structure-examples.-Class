@@ -53,6 +53,7 @@
             this.linkedListBtn.TabIndex = 1;
             this.linkedListBtn.Text = "LinkedList";
             this.linkedListBtn.UseVisualStyleBackColor = true;
+            this.linkedListBtn.Click += new System.EventHandler(this.linkedListBtn_Click);
             // 
             // stackBtn
             // 

@@ -47,7 +47,7 @@
             // 
             // showBtn
             // 
-            this.showBtn.Location = new System.Drawing.Point(82, 79);
+            this.showBtn.Location = new System.Drawing.Point(63, 25);
             this.showBtn.Name = "showBtn";
             this.showBtn.Size = new System.Drawing.Size(141, 31);
             this.showBtn.TabIndex = 1;
@@ -57,7 +57,7 @@
             // 
             // searchBtn
             // 
-            this.searchBtn.Location = new System.Drawing.Point(82, 25);
+            this.searchBtn.Location = new System.Drawing.Point(63, 210);
             this.searchBtn.Name = "searchBtn";
             this.searchBtn.Size = new System.Drawing.Size(141, 31);
             this.searchBtn.TabIndex = 2;
@@ -69,14 +69,14 @@
             // 
             this.roomListBox.FormattingEnabled = true;
             this.roomListBox.ItemHeight = 15;
-            this.roomListBox.Location = new System.Drawing.Point(302, 79);
+            this.roomListBox.Location = new System.Drawing.Point(221, 25);
             this.roomListBox.Name = "roomListBox";
-            this.roomListBox.Size = new System.Drawing.Size(239, 259);
+            this.roomListBox.Size = new System.Drawing.Size(239, 154);
             this.roomListBox.TabIndex = 3;
             // 
             // searchTextBox
             // 
-            this.searchTextBox.Location = new System.Drawing.Point(302, 25);
+            this.searchTextBox.Location = new System.Drawing.Point(221, 215);
             this.searchTextBox.Name = "searchTextBox";
             this.searchTextBox.Size = new System.Drawing.Size(239, 23);
             this.searchTextBox.TabIndex = 4;
