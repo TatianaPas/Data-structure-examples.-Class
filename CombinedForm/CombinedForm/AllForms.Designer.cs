@@ -72,6 +72,7 @@
             this.queueBtn.TabIndex = 3;
             this.queueBtn.Text = "Queue";
             this.queueBtn.UseVisualStyleBackColor = true;
+            this.queueBtn.Click += new System.EventHandler(this.queueBtn_Click);
             // 
             // backToStudentsBtn
             // 

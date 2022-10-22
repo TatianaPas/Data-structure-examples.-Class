@@ -19,3 +19,4 @@ C:\Data Structures\wekk11 DS\CombinedForm\CombinedForm\obj\Debug\net6.0-windows\
 C:\Data Structures\wekk11 DS\CombinedForm\CombinedForm\obj\Debug\net6.0-windows\CombinedForm.ViewForm.resources
 C:\Data Structures\wekk11 DS\CombinedForm\CombinedForm\obj\Debug\net6.0-windows\CombinedForm.HashForm.resources
 C:\Data Structures\wekk11 DS\CombinedForm\CombinedForm\obj\Debug\net6.0-windows\CombinedForm.LinkedListForm.resources
+C:\Data Structures\wekk11 DS\CombinedForm\CombinedForm\obj\Debug\net6.0-windows\CombinedForm.QueueForm.resources

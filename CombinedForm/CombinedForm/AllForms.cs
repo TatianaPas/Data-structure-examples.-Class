@@ -38,5 +38,12 @@ namespace CombinedForm
             linkedForm.Show();
 
         }
+
+        private void queueBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            QueueForm queueForm = new QueueForm();
+            queueForm.Show();
+        }
     }
 }
