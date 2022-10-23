@@ -37,6 +37,7 @@
             this.deleteFirstBtn = new System.Windows.Forms.Button();
             this.deleteLastBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.backBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -124,11 +125,22 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "Insert Airline Name";
             // 
+            // backBtn
+            // 
+            this.backBtn.Location = new System.Drawing.Point(663, 402);
+            this.backBtn.Name = "backBtn";
+            this.backBtn.Size = new System.Drawing.Size(75, 23);
+            this.backBtn.TabIndex = 9;
+            this.backBtn.Text = "Back";
+            this.backBtn.UseVisualStyleBackColor = true;
+            this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
+            // 
             // LinkedListForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.backBtn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.deleteLastBtn);
             this.Controls.Add(this.deleteFirstBtn);
@@ -156,5 +168,6 @@
         private Button deleteFirstBtn;
         private Button deleteLastBtn;
         private Label label2;
+        private Button backBtn;
     }
 }

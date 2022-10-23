@@ -36,5 +36,12 @@ namespace CombinedForm
             waitingListBox.DataSource = appointments.getAllWaitingPatients().ToList();
             doctorViewBox.Items.Add(p);
         }
+
+        private void backBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AllForms allForm = new AllForms();
+            allForm.Show();
+        }
     }
 }

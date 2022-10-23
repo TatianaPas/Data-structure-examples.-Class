@@ -63,6 +63,7 @@
             this.stackBtn.TabIndex = 2;
             this.stackBtn.Text = "Stack";
             this.stackBtn.UseVisualStyleBackColor = true;
+            this.stackBtn.Click += new System.EventHandler(this.stackBtn_Click);
             // 
             // queueBtn
             // 

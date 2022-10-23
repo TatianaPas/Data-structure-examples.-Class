@@ -53,5 +53,12 @@ namespace CombinedForm
             airlines.RemoveLast();
             displayBox.DataSource = airlines.ToList();
         }
+
+        private void backBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AllForms allForm = new AllForms();
+            allForm.Show();
+        }
     }
 }

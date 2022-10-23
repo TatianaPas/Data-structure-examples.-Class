@@ -45,5 +45,12 @@ namespace CombinedForm
             QueueForm queueForm = new QueueForm();
             queueForm.Show();
         }
+
+        private void stackBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            StackForm stackForm = new StackForm();
+            stackForm.Show();
+        }
     }
 }

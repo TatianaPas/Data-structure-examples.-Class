@@ -42,6 +42,7 @@
             this.nextBtn = new System.Windows.Forms.Button();
             this.doctorViewBox = new System.Windows.Forms.ListBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.backBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -174,11 +175,22 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "Seen By Doctor";
             // 
+            // backBtn
+            // 
+            this.backBtn.Location = new System.Drawing.Point(655, 500);
+            this.backBtn.Name = "backBtn";
+            this.backBtn.Size = new System.Drawing.Size(113, 23);
+            this.backBtn.TabIndex = 14;
+            this.backBtn.Text = "Back";
+            this.backBtn.UseVisualStyleBackColor = true;
+            this.backBtn.Click += new System.EventHandler(this.backBtn_Click);
+            // 
             // QueueForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 546);
+            this.Controls.Add(this.backBtn);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.doctorViewBox);
             this.Controls.Add(this.nextBtn);
@@ -216,5 +228,6 @@
         private Button nextBtn;
         private ListBox doctorViewBox;
         private Label label7;
+        private Button backBtn;
     }
 }

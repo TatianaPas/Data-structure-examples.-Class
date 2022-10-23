@@ -16,6 +16,9 @@
     <Compile Update="QueueForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="StackForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
